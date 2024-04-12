@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* ************nav*********** */
+.nav {
+    background-color: white;
+    box-shadow: 10px 10px 90px rgb(163, 163, 163);
+    height: 50px;
+
+
+}
+.nav1 {
+    text-align: center;
+    margin-left: 300px;
+}
+
+/* ************************map******************* */
+.maptext{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 39px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+/* ***********************section1****************************** */
+.sec1 {
+    margin-left: 30px;
+    margin-right: 50px;
+    height: 200px;
+}
+
+.cardtx {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.cardbtn {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+/* *************footer*********** */
+
+.footer {
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.foot1 {
+    text-align: center;
+    margin-top: 80px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    height: 200px;
+}
+
+
+.footbx {
+    width: 60%;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 70px;
+    transition: 2s;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.inf{
+    text-decoration: none;
+    color: gray;
+}
+.inf:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.footbx1 {
+    width: 60%;
+    height: 50px;
+    background-color: black;
+    margin-left: 70px;
+    margin-right: 50px;
+    transition: 2s;
+    margin-top: 50px;
+}
+
+.footbx:hover {
+    width: 60%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 2s;
+}
+
+.footbt {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+.footbt:hover{
+    color: white;
+}
+
+.footbt1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.footbt1:hover {
+    width: 60%;
+    height: 50px;
+   color: bisque;
+   border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 30px;
+    font-size: 40px;
+    margin-top: 90px;
+    color: black;
+}
+.icon1{
+    margin-left: 60px;
+}
+.icon:hover{
+    color: brown;
+}
+
+
+
+@media only screen and (max-width: 771px) {
+    .footer {
+        margin-top: 80px;
+    }
+
+    .footbx1 {
+        margin-left: 100px;
+    }
+
+    .footbx {
+        margin-left: 100px;
+    }
+}
